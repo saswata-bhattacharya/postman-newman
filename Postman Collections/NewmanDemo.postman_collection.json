@@ -46,7 +46,7 @@
 							}
 						}
 					],
-					"_postman_id": "42a2a2d8-6cc6-4d9a-b8d4-9cb70ffe7fd5",
+					"id": "42a2a2d8-6cc6-4d9a-b8d4-9cb70ffe7fd5",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -61,7 +61,7 @@
 					"response": []
 				}
 			],
-			"_postman_id": "a05b44db-3cc6-4a8c-95bc-d0cde3bfec68"
+			"id": "a05b44db-3cc6-4a8c-95bc-d0cde3bfec68"
 		},
 		{
 			"name": "Generate Auth Token",
@@ -95,7 +95,7 @@
 							}
 						}
 					],
-					"_postman_id": "2e5c3559-14b6-4d73-9e10-e6e0e4fa0aba",
+					"id": "2e5c3559-14b6-4d73-9e10-e6e0e4fa0aba",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -132,15 +132,14 @@
 									"value": "{{resource}}",
 									"type": "text"
 								}
-							],
-							"options": {}
+							]
 						},
 						"url": "https://login.microsoftonline.com/656793e6-d51d-4bb2-b5fa-c66ddd181a40/oauth2/token"
 					},
 					"response": []
 				}
 			],
-			"_postman_id": "2b7de274-d815-44c9-a6f9-f536b45c0325",
+			"id": "2b7de274-d815-44c9-a6f9-f536b45c0325",
 			"auth": {
 				"type": "noauth"
 			},
@@ -205,7 +204,7 @@
 									}
 								}
 							],
-							"_postman_id": "2ad0a90e-1e5e-439b-bd6e-bd7731612edd",
+							"id": "2ad0a90e-1e5e-439b-bd6e-bd7731612edd",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -249,7 +248,7 @@
 									}
 								}
 							],
-							"_postman_id": "d8917cef-f22a-4871-b52c-06cb56267d42",
+							"id": "d8917cef-f22a-4871-b52c-06cb56267d42",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -290,7 +289,7 @@
 									}
 								}
 							],
-							"_postman_id": "009689b8-4ddb-41bc-9ee9-733865cf503f",
+							"id": "009689b8-4ddb-41bc-9ee9-733865cf503f",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -333,7 +332,7 @@
 									}
 								}
 							],
-							"_postman_id": "8b1c5acc-9442-44ca-8148-b90439f1f634",
+							"id": "8b1c5acc-9442-44ca-8148-b90439f1f634",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -345,11 +344,10 @@
 							"response": []
 						}
 					],
-					"_postman_id": "ae118d16-b96d-46d9-81a9-69bb33855b70",
-					"_postman_isSubFolder": true
+					"id": "ae118d16-b96d-46d9-81a9-69bb33855b70"
 				}
 			],
-			"_postman_id": "7f034b5f-2ba2-448a-8e3e-1cccc6e2badf"
+			"id": "7f034b5f-2ba2-448a-8e3e-1cccc6e2badf"
 		},
 		{
 			"name": "Enroll & Tier up ( PINK - SILVER )",
@@ -460,7 +458,7 @@
 									}
 								}
 							],
-							"_postman_id": "cca008e8-1117-4d22-a9b8-3e7b9fdf1fcb",
+							"id": "cca008e8-1117-4d22-a9b8-3e7b9fdf1fcb",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -480,8 +478,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"firstName\": \"bob\",\r\n    \"lastName\": \"smith\",\r\n    \"emailAddress\": \"{{newConsumerEmail}}\",\r\n    \"country\": \"FR\",\r\n    \"gender\": \"Male\",\r\n    \"lastModifiedSource\": \"Estore\",\r\n    \"sourceId\": \"CRM-SRCID-000000000088\",\r\n    \"emailOptCurrentStatus\": true,\r\n    \"emailDoubleOptInStatus\": \"Received\",\r\n    \"mobileOptCurrentStatus\": true,\r\n    \"mobileDoubleOptInStatus\": \"Received\",\r\n    \"directMailOptCurrentStatus\": true,\r\n    \"directMailDoubleOptInStatus\": \"Received\",\r\n    \"telephoneOptCurrentStatus\": true,\r\n    \"telephoneDoubleOptInStatus\": \"Received\",\r\n    \"faxOptCurrentStatus\": true,\r\n    \"faxDoubleOptInStatus\": \"Received\"\r\n}",
-									"options": {}
+									"raw": "{\r\n    \"firstName\": \"bob\",\r\n    \"lastName\": \"smith\",\r\n    \"emailAddress\": \"{{newConsumerEmail}}\",\r\n    \"country\": \"FR\",\r\n    \"gender\": \"Male\",\r\n    \"lastModifiedSource\": \"Estore\",\r\n    \"sourceId\": \"CRM-SRCID-000000000088\",\r\n    \"emailOptCurrentStatus\": true,\r\n    \"emailDoubleOptInStatus\": \"Received\",\r\n    \"mobileOptCurrentStatus\": true,\r\n    \"mobileDoubleOptInStatus\": \"Received\",\r\n    \"directMailOptCurrentStatus\": true,\r\n    \"directMailDoubleOptInStatus\": \"Received\",\r\n    \"telephoneOptCurrentStatus\": true,\r\n    \"telephoneDoubleOptInStatus\": \"Received\",\r\n    \"faxOptCurrentStatus\": true,\r\n    \"faxDoubleOptInStatus\": \"Received\"\r\n}"
 								},
 								"url": "{{api_url}}/api/v{{ApiVersion}}/consumer"
 							},
@@ -545,7 +542,7 @@
 									}
 								}
 							],
-							"_postman_id": "cd51b486-4ace-40d2-9c27-f02584dfeaae",
+							"id": "cd51b486-4ace-40d2-9c27-f02584dfeaae",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -566,16 +563,14 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "",
-									"options": {}
+									"raw": ""
 								},
 								"url": "{{api_url}}/api/v{{ApiVersion}}/consumer/{{McID}}"
 							},
 							"response": []
 						}
 					],
-					"_postman_id": "00affd8c-2c6d-4586-9aec-1d7dc47b0563",
-					"_postman_isSubFolder": true
+					"id": "00affd8c-2c6d-4586-9aec-1d7dc47b0563"
 				},
 				{
 					"name": "Consumer Terms and Conditions",
@@ -616,7 +611,7 @@
 									}
 								}
 							],
-							"_postman_id": "b795ed07-1e80-48dd-80e0-73a4c91f207a",
+							"id": "b795ed07-1e80-48dd-80e0-73a4c91f207a",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -637,8 +632,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"termsAndConditionsId\": \"{{newT&Cid}}\"\r\n} ",
-									"options": {}
+									"raw": "{\r\n  \"termsAndConditionsId\": \"{{newT&Cid}}\"\r\n} "
 								},
 								"url": "{{api_url}}/api/v{{ApiVersion}}/consumer/{{McID}}/TermsAndConditions"
 							},
@@ -695,7 +689,7 @@
 									}
 								}
 							],
-							"_postman_id": "e078af1f-0902-4ba6-b49e-6317dd7a06d7",
+							"id": "e078af1f-0902-4ba6-b49e-6317dd7a06d7",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -716,16 +710,14 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "",
-									"options": {}
+									"raw": ""
 								},
 								"url": "{{api_url}}/api/v{{ApiVersion}}/consumer/{{McID}}/TermsAndConditions"
 							},
 							"response": []
 						}
 					],
-					"_postman_id": "e6b71f69-4f36-4896-b189-28e833cad4fc",
-					"_postman_isSubFolder": true
+					"id": "e6b71f69-4f36-4896-b189-28e833cad4fc"
 				},
 				{
 					"name": "After Enrollment - Loyalty Profile",
@@ -736,160 +728,160 @@
 								{
 									"listen": "test",
 									"script": {
+										"id": "215658d3-9061-4028-9789-68ffd6d24127",
 										"exec": [
-											"eval(postman.getGlobalVariable(\"describe-it-test-script\"));\r",
+											"// eval(postman.getGlobalVariable(\"describe-it-test-script\"));\r",
 											"\r",
-											"const response=pm.response.json();\r",
+											"// const response=pm.response.json();\r",
 											"\r",
-											"describe(\"After Enrollment in Loyalty, response\", function() {\r",
-											"    it(\"must return 200 status code\", function() {\r",
-											"       expect(responseCode.code).toEql(200);\r",
-											"    });\r",
-											"    it(\"must be a valid JSON\", function () {\r",
-											"        responseJSON = JSON.parse(responseBody);\r",
-											"        expect(typeof responseJSON).toBe(\"object\");\r",
-											"    });    \r",
-											"    it(\"property masterConsumerId must have a value\", function () {\r",
-											"        expect(responseJSON.masterConsumerId).toBeOk();\r",
-											"    });   \r",
-											"    it(\"property email must have a value\", function () {\r",
-											"        expect(responseJSON.email).toBeOk();\r",
-											"    }); \r",
-											"  \r",
-											"    \r",
-											"        testResults = function(propertyName, propertyValue) {\r",
-											"        it(\"property \" + propertyName + \" values must match\", function () {\r",
-											"            expect(responseJSON[propertyName]).toEql(propertyValue);\r",
-											"        });\r",
-											"    };\r",
-											"\r",
-											"//Validate Member Details \r",
-											"\r",
-											"    testResults(\"masterConsumerId\", pm.environment.get(\"McID\"));\r",
-											"    testResults(\"memberStatus\", \"Active\");\r",
-											"    testResults(\"country\", \"FR\");\r",
-											"    testResults(\"firstName\", \"bob\");\r",
-											"    testResults(\"lastName\", \"smith\");\r",
-											"    testResults(\"email\", pm.environment.get(\"newConsumerEmail\"));\r",
-											"\r",
-											"// Validate that data capture questions is not answered\r",
-											"    testResults(\"consumerType\", null);\r",
-											"    testResults(\"metalPreference\", null);\r",
-											"    testResults(\"categoryPreference\", null);\r",
-											"    testResults(\"birthdayDay\", null);;\r",
-											"    testResults(\"birthdayMonth\", null);\r",
-											"    testResults(\"birthdayYear\", null);\r",
-											"    testResults(\"myStoreId\", null);\r",
-											"  \r",
-											" });   \r",
-											"\r",
-											"testResults2 = function(propertyName, propertyValue) {\r",
-											"        it(\"property \" + propertyName + \" values must match\", function () {     \r",
-											"            expect(propertyName).toEql(propertyValue);\r",
-											"        });\r",
-											"    };\r",
-											"\r",
-											"//Tier Level and Account details validation\r",
-											"\r",
-											"    let account= response.accountBalance;\r",
-											"\r",
-											"        it(\"Account Balance should be an Object\", function () {\r",
-											"            expect(typeof account).toBe(\"object\");\r",
-											"        }); \r",
-											"\r",
-											"        testResults2(response.accountBalance.tierLevel, \"Pink\");\r",
-											"        testResults2(response.accountBalance.pendingPoints, 0.0);\r",
-											"        testResults2(response.accountBalance.availablePoints, 0.0);\r",
-											"        testResults2(response.accountBalance.conversionAmount, 0.00);\r",
-											"\r",
-											"//Voucher validation for PINK member\r",
-											"\r",
-											"let voucherid,expDt, issueDt, redeemDate,usesLeft,pointEarningMul, discPercent, isActive, validity, applicability;\r",
-											"\r",
-											"        for(let val of response.vouchers){\r",
-											"            if(val.name == \"FreeJewelryCleaningInStore_FR\"){\r",
-											"                    voucherid=val.id;\r",
-											"                    console.log(\"FreeJewelryCleaningInStore voucher is available -> \", voucherid);\r",
-											"                                       \r",
-											"                    pm.test(\"FreeJewelryCleaningInStore is valid for Lifetime\", function () {\r",
-											"                        expDt=val.expiryDate;\r",
-											"                    \r",
-											"                        expDt= new Date(val.expiryDate);\r",
-											"                        expYear=expDt.getFullYear();\r",
-											"                        console.log (expYear);\r",
-											"\r",
-											"                        pm.expect(expYear).to.eql(2100);              \r",
-											"                    });\r",
-											"\r",
-											"                    pm.test(\"FreeJewelryCleaningInStore is not yet redeemed for a PINK Consumer\", function () {\r",
-											"                        redeemDate =val.redeemDate;\r",
-											"                        pm.expect(redeemDate).to.eql(null);              \r",
-											"                    });\r",
-											"\r",
-											"                    pm.test(\"FreeJewelryCleaningInStore can be used Multiple Times - Uses Left Validation\", function () {\r",
-											"                        usesLeft =val.usesLeft;\r",
-											"                        pm.expect(usesLeft).to.eql(999999999);              \r",
-											"                    });\r",
-											"\r",
-											"                    pm.test(\"FreeJewelryCleaningInStore should Active after Enrollment\", function () {\r",
-											"                        isActive =val.isActive;\r",
-											"                        pm.expect(isActive).to.eql(true);              \r",
-											"                    });\r",
-											"\r",
-											"                    pm.test(\"FreeJewelryCleaningInStore should applicable at stores only\", function () {\r",
-											"                        applicability =val.applicableIn;\r",
-											"                        pm.expect(applicability).to.eql(\"InStore\");              \r",
-											"                    });\r",
-											"            };\r",
-											"        };\r",
-											"// Member Profile available arrays validation after Enrollment\r",
-											"\r",
-											"//   pm.test(\"Validate Voucher Array is  empty\", () => {\r",
-											"//         pm.expect(response.vouchers).to.be.empty;\r",
+											"// describe(\"After Enrollment in Loyalty, response\", function() {\r",
+											"//     it(\"must return 200 status code\", function() {\r",
+											"//        expect(responseCode.code).toEql(200);\r",
 											"//     });\r",
-											"    pm.test(\"Validate Transaction array for new enrolled member\", () => {\r",
-											"        //errors array is empty\r",
-											"    pm.expect(response.transactions).to.be.empty;\r",
-											"    });\r",
-											"    pm.test(\"Validate Points array for new enrolled member\", () => {\r",
-											"        //errors array is empty\r",
-											"    pm.expect(response.points).to.be.empty;\r",
-											"    });\r",
-											"\r",
-											"    var enrollDate = response.enrollDate;\r",
-											"    // console.log(enrollDate);\r",
-											"    // var dateStr = JSON.parse(response.enrollDate);  \r",
-											"    // console.log(dateStr);\r",
-											"    var date = new Date(enrollDate);\r",
-											"    var dateStr = date.toUTCString();\r",
-											"    console.log(dateStr);\r",
-											"\r",
-											"    //Validate that enrollment timestamp is matching with T&C acceptance timestamp\r",
-											"\r",
-											"    let enrollTimeStamp = pm.environment.get(\"enrollTimeStamp\");\r",
-											"    console.log(enrollTimeStamp);\r",
+											"//     it(\"must be a valid JSON\", function () {\r",
+											"//         responseJSON = JSON.parse(responseBody);\r",
+											"//         expect(typeof responseJSON).toBe(\"object\");\r",
+											"//     });    \r",
+											"//     it(\"property masterConsumerId must have a value\", function () {\r",
+											"//         expect(responseJSON.masterConsumerId).toBeOk();\r",
+											"//     });   \r",
+											"//     it(\"property email must have a value\", function () {\r",
+											"//         expect(responseJSON.email).toBeOk();\r",
+											"//     }); \r",
+											"  \r",
 											"    \r",
-											"    pm.test (\"Enrollment Timestamp Validation - \"+ dateStr, function () {\r",
-											"    pm.expect((dateStr).match(enrollTimeStamp));\r",
-											"   } )\r",
+											"//         testResults = function(propertyName, propertyValue) {\r",
+											"//         it(\"property \" + propertyName + \" values must match\", function () {\r",
+											"//             expect(responseJSON[propertyName]).toEql(propertyValue);\r",
+											"//         });\r",
+											"//     };\r",
+											"\r",
+											"// //Validate Member Details \r",
+											"\r",
+											"//     testResults(\"masterConsumerId\", pm.environment.get(\"McID\"));\r",
+											"//     testResults(\"memberStatus\", \"Active\");\r",
+											"//     testResults(\"country\", \"FR\");\r",
+											"//     testResults(\"firstName\", \"bob\");\r",
+											"//     testResults(\"lastName\", \"smith\");\r",
+											"//     testResults(\"email\", pm.environment.get(\"newConsumerEmail\"));\r",
+											"\r",
+											"// // Validate that data capture questions is not answered\r",
+											"//     testResults(\"consumerType\", null);\r",
+											"//     testResults(\"metalPreference\", null);\r",
+											"//     testResults(\"categoryPreference\", null);\r",
+											"//     testResults(\"birthdayDay\", null);;\r",
+											"//     testResults(\"birthdayMonth\", null);\r",
+											"//     testResults(\"birthdayYear\", null);\r",
+											"//     testResults(\"myStoreId\", null);\r",
+											"  \r",
+											"//  });   \r",
+											"\r",
+											"// testResults2 = function(propertyName, propertyValue) {\r",
+											"//         it(\"property \" + propertyName + \" values must match\", function () {     \r",
+											"//             expect(propertyName).toEql(propertyValue);\r",
+											"//         });\r",
+											"//     };\r",
+											"\r",
+											"// //Tier Level and Account details validation\r",
+											"\r",
+											"//     let account= response.accountBalance;\r",
+											"\r",
+											"//         it(\"Account Balance should be an Object\", function () {\r",
+											"//             expect(typeof account).toBe(\"object\");\r",
+											"//         }); \r",
+											"\r",
+											"//         testResults2(response.accountBalance.tierLevel, \"Pink\");\r",
+											"//         testResults2(response.accountBalance.pendingPoints, 0.0);\r",
+											"//         testResults2(response.accountBalance.availablePoints, 0.0);\r",
+											"//         testResults2(response.accountBalance.conversionAmount, 0.00);\r",
+											"\r",
+											"// //Voucher validation for PINK member\r",
+											"\r",
+											"// let voucherid,expDt, issueDt, redeemDate,usesLeft,pointEarningMul, discPercent, isActive, validity, applicability;\r",
+											"\r",
+											"//         for(let val of response.vouchers){\r",
+											"//             if(val.name == \"FreeJewelryCleaningInStore_FR\"){\r",
+											"//                     voucherid=val.id;\r",
+											"//                     console.log(\"FreeJewelryCleaningInStore voucher is available -> \", voucherid);\r",
+											"                                       \r",
+											"//                     pm.test(\"FreeJewelryCleaningInStore is valid for Lifetime\", function () {\r",
+											"//                         expDt=val.expiryDate;\r",
+											"                    \r",
+											"//                         expDt= new Date(val.expiryDate);\r",
+											"//                         expYear=expDt.getFullYear();\r",
+											"//                         console.log (expYear);\r",
+											"\r",
+											"//                         pm.expect(expYear).to.eql(2100);              \r",
+											"//                     });\r",
+											"\r",
+											"//                     pm.test(\"FreeJewelryCleaningInStore is not yet redeemed for a PINK Consumer\", function () {\r",
+											"//                         redeemDate =val.redeemDate;\r",
+											"//                         pm.expect(redeemDate).to.eql(null);              \r",
+											"//                     });\r",
+											"\r",
+											"//                     pm.test(\"FreeJewelryCleaningInStore can be used Multiple Times - Uses Left Validation\", function () {\r",
+											"//                         usesLeft =val.usesLeft;\r",
+											"//                         pm.expect(usesLeft).to.eql(999999999);              \r",
+											"//                     });\r",
+											"\r",
+											"//                     pm.test(\"FreeJewelryCleaningInStore should Active after Enrollment\", function () {\r",
+											"//                         isActive =val.isActive;\r",
+											"//                         pm.expect(isActive).to.eql(true);              \r",
+											"//                     });\r",
+											"\r",
+											"//                     pm.test(\"FreeJewelryCleaningInStore should applicable at stores only\", function () {\r",
+											"//                         applicability =val.applicableIn;\r",
+											"//                         pm.expect(applicability).to.eql(\"InStore\");              \r",
+											"//                     });\r",
+											"//             };\r",
+											"//         };\r",
+											"// // Member Profile available arrays validation after Enrollment\r",
+											"\r",
+											"// //   pm.test(\"Validate Voucher Array is  empty\", () => {\r",
+											"// //         pm.expect(response.vouchers).to.be.empty;\r",
+											"// //     });\r",
+											"//     pm.test(\"Validate Transaction array for new enrolled member\", () => {\r",
+											"//         //errors array is empty\r",
+											"//     pm.expect(response.transactions).to.be.empty;\r",
+											"//     });\r",
+											"//     pm.test(\"Validate Points array for new enrolled member\", () => {\r",
+											"//         //errors array is empty\r",
+											"//     pm.expect(response.points).to.be.empty;\r",
+											"//     });\r",
+											"\r",
+											"//     var enrollDate = response.enrollDate;\r",
+											"//     // console.log(enrollDate);\r",
+											"//     // var dateStr = JSON.parse(response.enrollDate);  \r",
+											"//     // console.log(dateStr);\r",
+											"//     var date = new Date(enrollDate);\r",
+											"//     var dateStr = date.toUTCString();\r",
+											"//     console.log(dateStr);\r",
+											"\r",
+											"//     //Validate that enrollment timestamp is matching with T&C acceptance timestamp\r",
+											"\r",
+											"//     let enrollTimeStamp = pm.environment.get(\"enrollTimeStamp\");\r",
+											"//     console.log(enrollTimeStamp);\r",
+											"    \r",
+											"//     pm.test (\"Enrollment Timestamp Validation - \"+ dateStr, function () {\r",
+											"//     pm.expect((dateStr).match(enrollTimeStamp));\r",
+											"//    } )\r",
 											""
 										],
-										"type": "text/javascript",
-										"id": "215658d3-9061-4028-9789-68ffd6d24127"
+										"type": "text/javascript"
 									}
 								},
 								{
 									"listen": "prerequest",
 									"script": {
+										"id": "5882dcbd-bdc2-424e-9abd-9a1dfcca8654",
 										"exec": [
 											""
 										],
-										"type": "text/javascript",
-										"id": "5882dcbd-bdc2-424e-9abd-9a1dfcca8654"
+										"type": "text/javascript"
 									}
 								}
 							],
-							"_postman_id": "473845af-30bb-4737-84a9-df11464f937e",
+							"id": "473845af-30bb-4737-84a9-df11464f937e",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -910,16 +902,14 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "",
-									"options": {}
+									"raw": ""
 								},
 								"url": "{{api_url}}/api/v{{ApiVersion}}/consumer/{{McID}}/loyalty"
 							},
 							"response": []
 						}
 					],
-					"_postman_id": "cd23b3a6-daef-45de-be3e-e3bfb6927ac3",
-					"_postman_isSubFolder": true
+					"id": "cd23b3a6-daef-45de-be3e-e3bfb6927ac3"
 				},
 				{
 					"name": "Consumer Purchase Reason",
@@ -963,7 +953,7 @@
 									}
 								}
 							],
-							"_postman_id": "87d2659c-3bed-418b-9be7-6f5be6dc1daf",
+							"id": "87d2659c-3bed-418b-9be7-6f5be6dc1daf",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -984,8 +974,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "[\r\n  {\r\n    \"name\": \"{{newPurchaseReason}}\"\r\n  }\r\n] ",
-									"options": {}
+									"raw": "[\r\n  {\r\n    \"name\": \"{{newPurchaseReason}}\"\r\n  }\r\n] "
 								},
 								"url": "{{api_url}}/api/v{{ApiVersion}}/consumer/{{McID}}/purchaseReason"
 							},
@@ -1031,7 +1020,7 @@
 									}
 								}
 							],
-							"_postman_id": "a2197f70-ceb4-42d3-a9d4-22949c259c22",
+							"id": "a2197f70-ceb4-42d3-a9d4-22949c259c22",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1052,16 +1041,14 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "",
-									"options": {}
+									"raw": ""
 								},
 								"url": "{{api_url}}/api/v{{ApiVersion}}/consumer/{{McID}}/purchaseReason"
 							},
 							"response": []
 						}
 					],
-					"_postman_id": "ac1d8969-0f7c-4b3d-b6ac-47e4e44920ca",
-					"_postman_isSubFolder": true
+					"id": "ac1d8969-0f7c-4b3d-b6ac-47e4e44920ca"
 				},
 				{
 					"name": "Consumer Preferred Category",
@@ -1104,7 +1091,7 @@
 									}
 								}
 							],
-							"_postman_id": "aaf64a50-8b94-4f62-b446-167447186892",
+							"id": "aaf64a50-8b94-4f62-b446-167447186892",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1125,8 +1112,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "[\r\n  {\r\n    \"name\": \"{{newPreferredCategory}}\"\r\n  }\r\n] ",
-									"options": {}
+									"raw": "[\r\n  {\r\n    \"name\": \"{{newPreferredCategory}}\"\r\n  }\r\n] "
 								},
 								"url": "{{api_url}}/api/v{{ApiVersion}}/consumer/{{McID}}/PreferredCategory"
 							},
@@ -1172,7 +1158,7 @@
 									}
 								}
 							],
-							"_postman_id": "e8ee5fc9-e2b5-47d3-b22c-ae64ad740b81",
+							"id": "e8ee5fc9-e2b5-47d3-b22c-ae64ad740b81",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1193,16 +1179,14 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "",
-									"options": {}
+									"raw": ""
 								},
 								"url": "{{api_url}}/api/v{{ApiVersion}}/consumer/{{McID}}/PreferredCategory"
 							},
 							"response": []
 						}
 					],
-					"_postman_id": "9737ead6-d3d9-4e7c-8020-d8d39f302393",
-					"_postman_isSubFolder": true
+					"id": "9737ead6-d3d9-4e7c-8020-d8d39f302393"
 				},
 				{
 					"name": "Consumer Preferred Metal",
@@ -1246,7 +1230,7 @@
 									}
 								}
 							],
-							"_postman_id": "f282a2c1-8b48-48f5-a83d-fa142ad26e32",
+							"id": "f282a2c1-8b48-48f5-a83d-fa142ad26e32",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1267,8 +1251,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "[\r\n  {\r\n    \"name\": \"{{newMetal}}\"\r\n  }\r\n] ",
-									"options": {}
+									"raw": "[\r\n  {\r\n    \"name\": \"{{newMetal}}\"\r\n  }\r\n] "
 								},
 								"url": "{{api_url}}/api/v{{ApiVersion}}/consumer/{{McID}}/preferredMetal"
 							},
@@ -1314,7 +1297,7 @@
 									}
 								}
 							],
-							"_postman_id": "bd595f2b-e375-4b0b-8ce3-0b83732d18c3",
+							"id": "bd595f2b-e375-4b0b-8ce3-0b83732d18c3",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1335,15 +1318,14 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "",
-									"options": {}
+									"raw": ""
 								},
 								"url": "{{api_url}}/api/v{{ApiVersion}}/consumer/{{McID}}/preferredMetal"
 							},
 							"response": []
 						}
 					],
-					"_postman_id": "5897f58a-8a31-4e7e-a1bf-59c312d64e1d",
+					"id": "5897f58a-8a31-4e7e-a1bf-59c312d64e1d",
 					"event": [
 						{
 							"listen": "prerequest",
@@ -1365,8 +1347,7 @@
 								"id": "e25bb955-0fa2-44fe-89f8-f2e7d5a1c743"
 							}
 						}
-					],
-					"_postman_isSubFolder": true
+					]
 				},
 				{
 					"name": "Birthday & myStore",
@@ -1405,7 +1386,7 @@
 									}
 								}
 							],
-							"_postman_id": "74630b41-7aca-4ecb-837e-bdc78a6e9220",
+							"id": "74630b41-7aca-4ecb-837e-bdc78a6e9220",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1425,8 +1406,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"birthdayDay\": 3,\r\n    \"birthdayMonth\": 10,\r\n    \"birthdayYear\": 1990\r\n}",
-									"options": {}
+									"raw": "{\r\n    \"birthdayDay\": 3,\r\n    \"birthdayMonth\": 10,\r\n    \"birthdayYear\": 1990\r\n}"
 								},
 								"url": "{{api_url}}/api/v{{ApiVersion}}/consumer/{{McID}}"
 							},
@@ -1464,7 +1444,7 @@
 									}
 								}
 							],
-							"_postman_id": "45f22cc3-0873-4dff-9538-29073e073877",
+							"id": "45f22cc3-0873-4dff-9538-29073e073877",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1484,16 +1464,14 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"myStoreId\": \"FR10044337\"//US00000027\r\n}",
-									"options": {}
+									"raw": "{\r\n    \"myStoreId\": \"FR10044337\"//US00000027\r\n}"
 								},
 								"url": "{{api_url}}/api/v{{ApiVersion}}/consumer/{{McID}}"
 							},
 							"response": []
 						}
 					],
-					"_postman_id": "4948cf89-6703-4392-9d47-07c67f08afaa",
-					"_postman_isSubFolder": true
+					"id": "4948cf89-6703-4392-9d47-07c67f08afaa"
 				},
 				{
 					"name": "Transaction",
@@ -1639,7 +1617,7 @@
 									}
 								}
 							],
-							"_postman_id": "933cad24-768e-4f50-9a02-2a7b69d9a965",
+							"id": "933cad24-768e-4f50-9a02-2a7b69d9a965",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1672,8 +1650,7 @@
 							"response": []
 						}
 					],
-					"_postman_id": "02ab85b2-bf21-4325-be13-18b7f02f47c9",
-					"_postman_isSubFolder": true
+					"id": "02ab85b2-bf21-4325-be13-18b7f02f47c9"
 				},
 				{
 					"name": "Tier Up",
@@ -1932,7 +1909,7 @@
 									}
 								}
 							],
-							"_postman_id": "5ca6b948-4e98-406c-a125-d9397047ca72",
+							"id": "5ca6b948-4e98-406c-a125-d9397047ca72",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1953,16 +1930,14 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "",
-									"options": {}
+									"raw": ""
 								},
 								"url": "{{api_url}}/api/v{{ApiVersion}}/consumer/{{McID}}/loyalty"
 							},
 							"response": []
 						}
 					],
-					"_postman_id": "bb8bda13-9fc3-49a9-87a4-3b737b831c23",
-					"_postman_isSubFolder": true
+					"id": "bb8bda13-9fc3-49a9-87a4-3b737b831c23"
 				},
 				{
 					"name": "Cleanup",
@@ -1983,7 +1958,7 @@
 									}
 								}
 							],
-							"_postman_id": "c2e1fd37-83ac-4072-bc7a-83cd1025e6ec",
+							"id": "c2e1fd37-83ac-4072-bc7a-83cd1025e6ec",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1997,24 +1972,22 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "",
-									"options": {}
+									"raw": ""
 								},
 								"url": "{{api_url}}/api/v{{ApiVersion}}/consumer/{{McID}}"
 							},
 							"response": []
 						}
 					],
-					"_postman_id": "f0c50fda-2161-405e-852f-111970eaba92",
-					"_postman_isSubFolder": true
+					"id": "f0c50fda-2161-405e-852f-111970eaba92"
 				}
 			],
-			"_postman_id": "42c7c111-0977-4509-be87-f2b996e26511"
+			"id": "42c7c111-0977-4509-be87-f2b996e26511"
 		},
 		{
 			"name": "Saswata",
 			"item": [],
-			"_postman_id": "39740185-6ce5-400b-bf08-8bce20f0e7c8"
+			"id": "39740185-6ce5-400b-bf08-8bce20f0e7c8"
 		}
 	],
 	"auth": {
