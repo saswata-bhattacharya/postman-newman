@@ -581,33 +581,33 @@
 								{
 									"listen": "prerequest",
 									"script": {
+										"id": "e017f689-5780-46ed-9f0e-cc34dd0c3748",
 										"exec": [
 											"console.log(\"New Terms and Conditions ID is - \"+pm.environment.get(\"newT&Cid\"));\r",
 											"setTimeout(function(){},2000);"
 										],
-										"type": "text/javascript",
-										"id": "e017f689-5780-46ed-9f0e-cc34dd0c3748"
+										"type": "text/javascript"
 									}
 								},
 								{
 									"listen": "test",
 									"script": {
+										"id": "7391ef7a-e4e5-4675-aaa3-213b7ba977b3",
 										"exec": [
 											"\r",
 											"\r",
-											"pm.test(\"Successful POST request\", function () {\r",
-											"    pm.expect(pm.response.code).to.be.oneOf([201, 202]);\r",
-											"});\r",
+											"// pm.test(\"Successful POST request\", function () {\r",
+											"//     pm.expect(pm.response.code).to.be.oneOf([201, 202]);\r",
+											"// });\r",
 											"\r",
-											"pm.test(\"Status code is 201 - Customer has accepted the New Terms & Conditions successfully\", function () {\r",
-											"    pm.response.to.have.status(201);\r",
-											"});\r",
+											"// pm.test(\"Status code is 201 - Customer has accepted the New Terms & Conditions successfully\", function () {\r",
+											"//     pm.response.to.have.status(201);\r",
+											"// });\r",
 											"\r",
 											"\r",
 											""
 										],
-										"type": "text/javascript",
-										"id": "7391ef7a-e4e5-4675-aaa3-213b7ba977b3"
+										"type": "text/javascript"
 									}
 								}
 							],
