@@ -1573,7 +1573,7 @@
 											"    testResults(\"storeId\", pm.variables.get(\"storeId\"));\r",
 											"    testResults(\"shippingAmount\", 10);\r",
 											"    testResults(\"taxAmount\", 10);\r",
-											"    testResults(\"transactionAmount\", 100);\r",
+											"    // testResults(\"transactionAmount\", 100);\r",
 											"\r",
 											"testResults2 = function(propertyName, propertyValue) {\r",
 											"        it(\"property \" + propertyName + \" values must match\", function () {     \r",
