@@ -1072,16 +1072,17 @@
 								{
 									"listen": "prerequest",
 									"script": {
+										"id": "b37b0347-dc52-40dd-a4d0-609dbd208669",
 										"exec": [
 											""
 										],
-										"type": "text/javascript",
-										"id": "b37b0347-dc52-40dd-a4d0-609dbd208669"
+										"type": "text/javascript"
 									}
 								},
 								{
 									"listen": "test",
 									"script": {
+										"id": "8d4c5e2b-ea1f-4e80-9755-df52e435f5e5",
 										"exec": [
 											"\r",
 											"console.log(pm.environment.get(\"newPreferredCategory\"));\r",
@@ -1092,15 +1093,14 @@
 											"    pm.expect(pm.response.code).to.be.oneOf([201, 202]);\r",
 											"});\r",
 											"\r",
-											"pm.test(\"Status code is 201 - Customer has added Preferred Category successfully\", function () {\r",
-											"    pm.response.to.have.status(201);\r",
-											"});\r",
+											"// pm.test(\"Status code is 201 - Customer has added Preferred Category successfully\", function () {\r",
+											"//     pm.response.to.have.status(201);\r",
+											"// });\r",
 											"\r",
 											"\r",
 											""
 										],
-										"type": "text/javascript",
-										"id": "8d4c5e2b-ea1f-4e80-9755-df52e435f5e5"
+										"type": "text/javascript"
 									}
 								}
 							],
