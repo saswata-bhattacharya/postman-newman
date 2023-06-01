@@ -361,6 +361,7 @@
 								{
 									"listen": "test",
 									"script": {
+										"id": "872eab9b-7932-4e5d-b1cd-26458202c00a",
 										"exec": [
 											"eval(postman.getGlobalVariable(\"describe-it-test-script\"));\r",
 											"\r",
@@ -391,6 +392,8 @@
 											"            });        \r",
 											"        });  \r",
 											"    }\r",
+											"\r",
+											"    \r",
 											"    \r",
 											"    it(\"must be a valid JSON\", function () {\r",
 											"        responseJSON = JSON.parse(responseBody);\r",
@@ -434,13 +437,13 @@
 											"    testResults(\"lastBirthdayDiscountRedemptionDate\", null);\r",
 											"});"
 										],
-										"type": "text/javascript",
-										"id": "872eab9b-7932-4e5d-b1cd-26458202c00a"
+										"type": "text/javascript"
 									}
 								},
 								{
 									"listen": "prerequest",
 									"script": {
+										"id": "f6ecb010-9374-4b65-8a5a-96ebc0eda35b",
 										"exec": [
 											"\r",
 											"function setRandomConEmail(){\r",
@@ -451,8 +454,7 @@
 											"\r",
 											"postman.setEnvironmentVariable(\"newConsumerEmail\",setRandomConEmail());"
 										],
-										"type": "text/javascript",
-										"id": "f6ecb010-9374-4b65-8a5a-96ebc0eda35b"
+										"type": "text/javascript"
 									}
 								}
 							],
